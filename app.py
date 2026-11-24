@@ -126,93 +126,78 @@ client = OpenAI(
 # AI ENHANCEMENT PROMPT
 # ==========================================
 
+
 PROMPT = """
-Enhance this original vehicle photograph into
-a premium professional automotive dealership
-listing photograph for a car sales website.
+Professionally retouch this original car photograph
+for a premium automotive dealership website.
 
-Keep the exact same vehicle, model, body shape,
-paint colour, wheels, tyres, headlights,
-number plate, accessories, badges, interior
-and original camera angle.
+The goal is to make the vehicle look attractive,
+bright, clean and desirable to potential buyers,
+while maintaining a completely realistic appearance.
 
-Do not redesign, modify or replace the vehicle.
-Do not conceal scratches, dents or defects.
+VEHICLE PRESERVATION:
+Keep the exact original vehicle, paint colour,
+body shape, wheels, tyres, number plate,
+accessories and camera angle.
+Preserve all existing vehicle defects.
 
 LIGHTING:
-Use soft, neutral professional showroom lighting.
+Use bright, balanced, professional showroom lighting.
+Improve illumination across the entire vehicle.
+Add a very subtle warm ambient glow along the
+bottom edges of the background.
+Avoid dark, moody or overly cinematic lighting.
 
-Add only a very subtle hint of warm golden
-accent lighting along the bottom edges of
-the original roller-door background.
-
-Keep warm lighting intensity minimal.
-Avoid strong orange or yellow tones,
-bright spotlights and excessive golden glow.
-
-Maintain natural white balance and preserve
-the original vehicle paint colour.
-
-SHADOWS:
-Enhance natural directional shadows underneath
-and around the vehicle.
-
-CAR BODY:
-Reduce harsh glare and excessive reflections
-ONLY on the painted body panels.
-
-Maintain a natural, clean factory paint finish.
-Do not make the paint artificially glossy,
-wet or matte.
-
-Pay particular attention to black cars.
-
-TYRES AND WHEELS:
-Keep original wheels and tyre designs.
-Preserve their natural clean appearance.
-
-FLOOR:
-Retain realistic, soft reflections underneath
-the wheels, tyres and vehicle.
-
-Keep the concrete floor clean and natural,
-with subtle neutral light reflections.
-
-Avoid excessive golden reflections or
-an artificially glossy floor.
-
-Preserve floor reflections when reducing
-shine on the car body.
+PAINT AND REFLECTIONS:
+Preserve the original metallic paint finish,
+colour vibrancy and natural gloss.
+Reduce distracting roller-door reflections
+and harsh glare on the body panels only.
+Do not remove all reflections.
+Do not make the vehicle look matte, dull,
+plastic or artificially polished.
 
 BACKGROUND:
-Retain the original industrial roller-door
-background. Make it slightly darker, cleaner
-and more sophisticated.
+Retain the original industrial roller-door background.
+Make it clean, neutral and visually balanced.
+Do not excessively darken the background.
+Avoid strong orange or yellow lighting.
 
-Do not add wooden panels, LED strips,
-decorations or unnecessary objects.
-
-HEADLIGHTS:
-Preserve the original design and operating state.
+FLOOR:
+Retain realistic concrete texture.
+Add subtle, natural reflections underneath
+the tyres and wheels.
+Maintain soft, realistic shadows.
+Avoid an excessively glossy or wet-looking floor.
 
 IMAGE QUALITY:
-Improve exposure, sharpness, clarity, colour
-balance, contrast and dynamic range.
+Improve brightness, exposure, sharpness,
+colour vibrancy, clarity and dynamic range.
+Keep the vehicle brighter and more visually
+prominent than the background.
 
-For interior or close-up photographs, apply
-natural photographic corrections only.
+HEADLIGHTS AND WHEELS:
+Enhance the clarity of existing headlights,
+chrome details, alloy wheels and tyres.
+Preserve their original appearance.
 
-FINAL AESTHETIC:
-Premium automotive dealership photography,
-clean neutral lighting, subtle warm accents,
-realistic shadows and natural floor reflections.
+For interior and close-up photographs,
+apply natural photographic corrections only.
 
-Prioritise realism over cinematic effects.
-The photograph should look professionally
-edited rather than AI-generated.
+FINAL RESULT:
+Bright, inviting, premium automotive dealership
+photography with realistic colours, natural
+paint gloss and professional lighting.
+
+The image should look like a professionally
+retouched real photograph, not an AI-generated
+render.
+
+Prioritise commercial attractiveness and realism
+over dramatic cinematic effects.
 
 Do not add text, logos or watermarks.
-Keep the original composition and aspect ratio.
+Maintain the original composition and aspect ratio.
 """
 
 # ==========================================
